@@ -160,9 +160,10 @@ h5{
 
 
 .title{
-	text-transform: uppercase;
-	font-size: 80px;
 	color: #fff;
+	font-size: 70px;
+	letter-spacing: -5px; 
+	text-transform: uppercase;
 }
 
 .sub-title{
@@ -292,14 +293,14 @@ h5{
 .overlay{
 	width: 100%;
 	height: 100%;
-	background:url(../images/overlay.png) repeat ;
+	background: rgba(0,0,0,0.7) url(../images/overlay.png) repeat ;
 	padding: 50px;
 }
 .middle {
 	width: 90%;
 	max-width:90%;
 	position: absolute;
-	left: 40%;
+	left: 27%;
 	top: 50%;
 	text-align:center;
 	-webkit-transform: translate(-50%, -50%);
@@ -560,24 +561,32 @@ p.time-text{
 	font-size: 40px;
 }
 .footer-social .fa-facebook{
-	background: #2C378A;
+	background-color: #2980b9;
 }
 .footer-social .fa-twitter{
-	background: #14B2F9;
+	background-color: #14B2F9;
+}
+.footer-social .fa-instagram{
+	background-color: #517fa4;
+}
+.footer-social .fa-github{
+	background-color: #27ae60;
 }
 .footer-social .fa-skype{
-	background: #14B2F9;
+	background-color: #14B2F9;
 }
 .footer-social .fa-google-plus{
-	background: #D13D2F;
+	background-color: #c0392b;
 }
 .footer-social .fa-linkedin{
-	background: #006DC0;
+	background-color: #006DC0;
 }
 .footer-social .fa-pinterest{
-	background: #517FA3;
+	background-color: #517FA3;
 }
-
+.footer-social .fa-youtube {
+	background-color: #e74c3c;
+}
 #copy{
 	background: #444;
 }
