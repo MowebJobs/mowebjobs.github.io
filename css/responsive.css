@@ -15,7 +15,7 @@
 }
 
 /* Small Devices, Tablets */
-@media (min-width : 768px) and (max-width: 991px) {
+@media (max-width: 991px) {
 	/*title
 	============================*/
 	.sec-title {
@@ -27,8 +27,9 @@
 	.sec-title:before{
 		right: 45%;
 	}
-	
-
+    .sub-title{
+        width: 76%;
+    }
 	/*Slider
 	===================*/
 	#textslider {
@@ -39,10 +40,15 @@
 		margin-left: -20px;
 	}
 	.middle  h2{
-		line-height: 55px;
-		font-size: 55px;
+        line-height: 51px;
+        font-size: 40px;
+        LETTER-SPACING: normal;
 	}
-	
+	.icon-box i.fa-magic,.icon-box i.fa-bullhorn,.icon-box i.fa-android,.icon-box i.fa-camera,.icon-box i.fa-sliders {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 	/*LOGO
 	=========================*/
 	.logo-inner {
@@ -55,7 +61,9 @@
 	.logo-inner:before{
 		right: 35%;
 	}
-	
+	h3{
+        width: 23px;
+    }
 	/*Countdown
 	==========================*/
 	.countdown_section {
