@@ -374,10 +374,19 @@ p.time-text{
 
 .slider-content{}
 
+.heading-content ul {
+	text-align: center;
+}
+
 .heading-content li{
 	color: #FFF;
-	padding: 10px 0px;
+	padding: 10px 20px;
 	font-size: 20px;
+	/* Edit by Ramon Serrano */
+	margin-bottom: 4px;
+	min-width: 160px;
+	display: inline-block;
+	background: #27ae60;
 }
 
 .next-section{
