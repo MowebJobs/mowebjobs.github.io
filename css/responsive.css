@@ -44,7 +44,7 @@
         font-size: 40px;
         LETTER-SPACING: normal;
 	}
-	.icon-box i.fa-magic,.icon-box i.fa-bullhorn,.icon-box i.fa-android,.icon-box i.fa-camera,.icon-box i.fa-sliders {
+	.icon-box i.fa-magic,.icon-box i.fa-bullhorn,.icon-box i.fa-wordpress,.icon-box i.fa-android,.icon-box i.fa-camera,.icon-box i.fa-sliders {
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -62,7 +62,9 @@
 		right: 35%;
 	}
 	h3{
-        width: 23px;
+      width: 220px;
+      font-size: 23px;
+      text-align: center;
     }
 	/*Countdown
 	==========================*/
@@ -81,10 +83,17 @@
 }
 
 /* Small Devices Potrait */
-@media (max-width : 767px){
-	
+@media (max-width : 800px){
+	/*Subtitle
+    ===========================*/
+    .sub-title{
+        width: 100%;
+    }
+    h3{
+      width: 217px;
+      font-size: 23px;
+    }
 }
-
 
 
 /* Custom, iPhone Retina */ 
@@ -94,7 +103,8 @@
 	/*title
 	============================*/
 	.sec-title {
-	    width: 90%
+	    width: 90%;
+        font-size: 30px;
 	}
 	.sec-title:after{
 		left: 35%;
@@ -102,24 +112,40 @@
 	.sec-title:before{
 		right: 35%;
 	}
-	
-
+	.sec-sub-title {
+        font-size: 15px;
+    }
 	/*Slider
 	===================*/
+    ul{
+        padding-left: 0px;
+    }
 	#textslider {
 	    height: 130px !important;
 	}
 	.middle{
-		width: 50%;
-		margin-left: -20px;
+		width: 71%;
+        margin-left: -32px;
 	}
 	.middle  h2{
 		line-height: 40px;
 		font-size: 25px;
 	}
-	
+    /*Element  about contaainer
+    ===========================*/
+    h3{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+	p{
+        text-align: center;
+    }
 	/*LOGO
 	=========================*/
+    .logo-title {
+        font-size: 42px;
+    }
 	.logo-inner {
 	    width: 100%;
 	}
@@ -167,4 +193,13 @@
 	}
 	
 
+}
+/*Custon, Mobile 320px*/
+@media (max-width: 320px){
+    .logo-title {
+        font-size: 45px;
+    }
+    .sub-title {
+        font-size: 16px;
+    }   
 }
