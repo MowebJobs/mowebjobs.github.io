@@ -482,15 +482,15 @@ p.time-text{
 .icon-box i:hover .content-inner h3{
 	border-color:#009bdf ;
 }
-i.fa-magic:hover,i.fa-android:hover{
+i.fa-globe:hover,i.fa-android:hover, i.fa-shopping-cart:hover{
     background-color: #27ae60;
     box-shadow: 0px 0px 0px 2px #27ae60;
 }
-i.fa-bullhorn:hover,i.fa-camera:hover{
+i.fa-mobile-phone:hover,i.fa-bitbucket:hover, i.fa-tablet:hover{
     background-color: #2980b9;
     box-shadow: 0px 0px 0px 2px #2980b9;
 }
-i.fa-wordpress:hover,i.fa-sliders:hover{
+i.fa-wordpress:hover,i.fa-html5:hover,i.fa-bar-chart:hover{
     background-color: #f1c40f;
     box-shadow: 0px 0px 0px 2px #f1c40f;
 }
