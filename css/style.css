@@ -210,7 +210,9 @@ h5{
 	border: 5px solid#e8e8e8;
 }
 
-.sec-sub-title{
+.sec-sub-title {
+	/* Edit by Ramon Serrano */
+	font-size: 18px;
 	margin: 30px 0px;
 }
 
@@ -508,7 +510,6 @@ p.time-text{
 	color: #fff;
 	border-color: #fff;
 }
-
 #contact-form label{
 	color: #fff;
 }
@@ -648,6 +649,15 @@ p.time-text{
     opacity: 1;
 }
 
+/* Edited by Ramon Serrano */
+#contact .row > p {
+	text-align: center;
+}
+#contact .email-contact {
+	color: #fff !important;
+	font-size: 24px;
+	text-decoration: none;
+}
 
 /*PLACEHolder
 =========================================*/
