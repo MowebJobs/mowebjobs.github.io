@@ -452,7 +452,7 @@ p.time-text{
 	-o-transition: all .4s linear 0s;
 	transition: all .4s linear 0s;
 	/* Edited by Ramon Serrano */
-	text-aling: center;
+	text-align: center;
 }
 
 .icon-box i{
