@@ -2,16 +2,24 @@
 ================================================== */
 
 /* Large Devices, Wide Screens */
-@media (min-width : 1200px) {
+@media (max-width : 1366px) {
 	.dropdown i{
 		display: none;
 	}
+    .middle{
+        left: 39%;
+    }
+    ul {
+        padding-left: 0;
+    }
 }
 
 
 /* Medium Devices, Desktops */
-@media (min-width : 992px) {
-
+@media (max-width : 1024px) {
+    .middle{
+        left: 41%;
+    }
 }
 
 /* Small Devices, Tablets */
