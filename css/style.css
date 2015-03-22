@@ -22,7 +22,8 @@ Table of Content
 
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700,600,500);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
-
+/*Google Font Ubuntu Mono*/
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic,700italic);
 
 
 
@@ -114,14 +115,14 @@ ul{
 ================================================== */
 
 body, p{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Ubuntu Mono', sans-serif;
 	font-weight: 400; 
 	font-size: 14px;
 	line-height: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Ubuntu Mono', sans-serif;
 	color: #444;
 }
 
@@ -311,12 +312,12 @@ h5{
 }
 .middle  h2{
 	color: #fff;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Ubuntu Mono', sans-serif;
 	line-height: 60px;
 
 }
 .middle  h2 span{
-	color: #009bdf;
+	color: #3498db;
 }
 #textslider{
 	height: 300px!important;
@@ -382,11 +383,10 @@ p.time-text{
 	color: #FFF;
 	padding: 10px 20px;
 	font-size: 20px;
-	/* Edit by Ramon Serrano */
 	margin-bottom: 4px;
 	min-width: 160px;
 	display: inline-block;
-	background: #27ae60;
+	background: #2ecc71;
 }
 
 .next-section{
@@ -451,7 +451,6 @@ p.time-text{
 	-webkit-transition: all .4s linear 0s;
 	-o-transition: all .4s linear 0s;
 	transition: all .4s linear 0s;
-	/* Edited by Ramon Serrano */
 	text-align: center;
 }
 
@@ -484,15 +483,18 @@ p.time-text{
 .icon-box i:hover .content-inner h3{
 	border-color:#009bdf ;
 }
-i.fa-globe:hover,i.fa-android:hover, i.fa-shopping-cart:hover{
-    background-color: #27ae60;
-    box-shadow: 0px 0px 0px 2px #27ae60;
+/*UI Color Green #2ecc71*/
+i.fa-code:hover,i.fa-database:hover, i.fa-shopping-cart:hover{
+    background-color: #2ecc71;
+    box-shadow: 0px 0px 0px 2px #2ecc71;
 }
+/*UI Color Blue #3498db*/
 i.fa-mobile-phone:hover,i.fa-bitbucket:hover, i.fa-tablet:hover{
-    background-color: #2980b9;
-    box-shadow: 0px 0px 0px 2px #2980b9;
+    background-color: #3498db;
+    box-shadow: 0px 0px 0px 2px #3498db;
 }
-i.fa-wordpress:hover,i.fa-html5:hover,i.fa-bar-chart:hover{
+/*UI Color Yellow #f1c40f*/
+i.fa-wordpress:hover,i.fa-laptop:hover,i.fa-bar-chart:hover{
     background-color: #f1c40f;
     box-shadow: 0px 0px 0px 2px #f1c40f;
 }
@@ -673,7 +675,6 @@ i.fa-wordpress:hover,i.fa-html5:hover,i.fa-bar-chart:hover{
     opacity: 1;
 }
 
-/* Edited by Ramon Serrano */
 #contact .row > p {
 	text-align: center;
 }
