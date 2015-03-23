@@ -290,12 +290,69 @@
         padding: 89px 0px;
     }
 }
+@media (max-width : 540px){
+    .slides-control {
+      left: -523px !important;
+    }
+}
+@media (max-width : 480px){
+    .slides-control {
+        left: -470px !important;
+    }
+    .middle h2 {
+        font-size: 21px;
+    }
+}
+@media (max-width : 400px){
+    .sub-title {
+        width: 89%;
+    }
+    .slides-control {
+        left: -394px !important;
+    }
+    .middle h2 {
+        font-size: 18px;
+    }
+}
+@media (max-width : 384px){
+    .slides-control {
+        left: -382px !important;
+    }
+    .middle {
+        width: 50%;
+    }
+    .btn-default.next-section {
+        font-size: 15.5px;
+    }
+    .sec-sub-title {
+        margin: 43px 10px;
+    }
+}
+@media (max-width : 360px){
+    .slides-control {
+        left: -360px !important;
+    }
+    .sec-title {
+        width: 61%;
+        font-size: 20px;
+    }
+}
 /*Custon, Mobile 320px*/
 @media (max-width: 320px){
     .logo-title {
-        font-size: 45px;
+        font-size: 34px;
     }
     .sub-title {
-        font-size: 16px;
+        font-size: 15px;
     }   
+    .slides-control {
+        left: -324px !important;
+    }
+    .middle {
+        width: 64%;
+    }
+    a.btn.btn-default.next-section.wow.bounceInRight.page-scroll.animated {
+        padding-left: 20px;
+        padding-right: 25px;
+    }
 }
