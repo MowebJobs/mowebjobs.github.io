@@ -89,7 +89,25 @@
 	
 
 }
-
+@media (max-width : 960px){
+    .slides-control {
+        left: -1023px !important;
+    }
+    .middle {
+        width: 40%;
+    }
+    .middle h2{
+        font-size: 35px;
+    }
+    .content-inner h3{
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .content-inner p{
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
 /* Small Devices Potrait */
 @media (max-width : 800px){
 	/*Subtitle
