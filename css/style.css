@@ -661,8 +661,8 @@ i.fa-wordpress:hover,i.fa-laptop:hover,i.fa-bar-chart:hover{
 	line-height: 35px;
 }   
 #back-top .btn-danger{
-    background: #009BDF!important;
-    border-color: #009BDF;
+    background: #3498db!important;
+    border-color: #3498db;
     padding: 0px;
     font-size: 18px;
     width: 36px;
@@ -671,7 +671,7 @@ i.fa-wordpress:hover,i.fa-laptop:hover,i.fa-bar-chart:hover{
 }
   
 #back-top a:hover{
-    background:#009BDF;
+    background:#3498db;
     opacity: 1;
 }
 

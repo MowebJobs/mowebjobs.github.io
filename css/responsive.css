@@ -150,6 +150,20 @@
     }
 }
 
+@media (max-width : 768px){
+    .slides-control {
+        left: -754px !important;
+    }
+    .middle{
+        width: 60%;
+    }
+    .middle h2{
+        font-size: 28px;
+    }
+    .btn-default.next-section {
+        font-size: 19.5px;
+    }
+}
 
 /* Custom, iPhone Retina */ 
 @media (min-width : 320px) and (max-width: 767px)  {
@@ -248,6 +262,33 @@
 	}
 	
 
+}
+@media (max-width : 600px){
+    .slides-control {
+        left: -579px !important;
+    }
+    .heading-content li {
+        font-size: 15px;
+    }
+    .sec-sub-title {
+        font-size: 15px;
+        margin: 43px 30px;
+    }
+    .content-inner h3 {
+        font-size: 18px;
+        width: 299px;
+    }
+    .content-inner p {
+        padding: 0 16px;
+        font-size: 15px;
+    }
+    .sec-title {
+        width: 60%;
+        font-size: 24px;
+    }
+    #contact .overlay {
+        padding: 89px 0px;
+    }
 }
 /*Custon, Mobile 320px*/
 @media (max-width: 320px){
