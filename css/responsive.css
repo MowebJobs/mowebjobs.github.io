@@ -107,17 +107,46 @@
         font-size: 14px;
         line-height: 17px;
     }
+      .sec-title {
+  width: 80%;
+}
+}
+@media (max-width: 853px){
+    .logo-inner {
+        width: 90%;
+    }
+    .slides-control {
+        left: -873px !important;
+    }
+    .btn-default {
+        font-size: 18px;
+    }
+    .sec-title {
+        width: 66%;
+        font-size: 40px;
+    }
+    .btn-default.next-section {
+        font-size: 13.5px;
+    }
 }
 /* Small Devices Potrait */
 @media (max-width : 800px){
-	/*Subtitle
-    ===========================*/
+    .slides-control {
+        left: -797px !important;
+    }
+    .sec-title{
+        width: 55%;
+        font-size: 35px;
+    }
     .sub-title{
         width: 100%;
     }
     h3{
       width: 217px;
       font-size: 23px;
+    }
+    .content-inner h3 {
+        font-size: 16px;
     }
 }
 
