@@ -2,6 +2,12 @@
 ================================================== */
 
 
+@media (max-width: 1440) {
+	.middle {
+		left: 37.5%;
+	}
+}
+
 
 /* Large Devices, Wide Screens */
 @media (max-width : 1366px) {
