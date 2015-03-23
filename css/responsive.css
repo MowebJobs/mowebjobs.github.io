@@ -1,6 +1,14 @@
 /* Responsive styles
 ================================================== */
 
+
+@media (max-width: 1440px) {
+	.middle {
+		left: 37.5%;
+	}
+}
+
+
 /* Large Devices, Wide Screens */
 @media (max-width : 1366px) {
 	.dropdown i{
@@ -12,6 +20,12 @@
     ul {
         padding-left: 0;
     }
+}
+
+@media (max-width: 1280) {
+	.middle {
+		left: 42%;
+	}
 }
 
 
@@ -89,6 +103,13 @@
 	
 
 }
+
+@media (max-width: 980px) {
+	.middle {
+		left: 35%;
+	}
+}
+
 @media (max-width : 960px){
     .slides-control {
         left: -1023px !important;
@@ -129,6 +150,9 @@
         font-size: 13.5px;
     }
 }
+
+/**/
+
 /* Small Devices Potrait */
 @media (max-width : 800px){
     .slides-control {
@@ -141,6 +165,11 @@
     .sub-title{
         width: 100%;
     }
+
+	.middle {
+		left: 42%;
+	}
+
     h3{
       width: 217px;
       font-size: 23px;
@@ -156,6 +185,7 @@
     }
     .middle{
         width: 60%;
+        left: 43%;
     }
     .middle h2{
         font-size: 28px;
@@ -164,7 +194,6 @@
         font-size: 19.5px;
     }
 }
-
 /* Custom, iPhone Retina */ 
 @media (min-width : 320px) and (max-width: 767px)  {
 	
@@ -337,7 +366,6 @@
         font-size: 20px;
     }
 }
-/*Custon, Mobile 320px*/
 @media (max-width: 320px){
     .logo-title {
         font-size: 34px;
