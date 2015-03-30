@@ -471,8 +471,8 @@ p.time-text{
 /*Estilo hover para cada elemento icon-box
 =============================================*/
 .icon-box i:hover{
-	box-shadow: 0px 0px 0px 2px #009bdf;
-	background: #009bdf;
+	box-shadow: 0px 0px 0px 2px #000000;
+	background: #ffffff;
 	-webkit-animation:puffOut .4s linear 0s;
 	-o-animation:puffOut .4s linear 0s;
 	animation:puffOut .4s linear 0s;
@@ -483,20 +483,49 @@ p.time-text{
 .icon-box i:hover .content-inner h3{
 	border-color:#009bdf ;
 }
-/*UI Color Green #2ecc71*/
-i.fa-code:hover,i.fa-database:hover, i.fa-shopping-cart:hover{
+.icon-box i {
+  color: #fff;
+  border: 2px solid#FFF;
+}
+.icon-box i:hover {
+  color: #000;
+  border: 2px solid#fff;
+}
+i.fa-code {
     background-color: #2ecc71;
     box-shadow: 0px 0px 0px 2px #2ecc71;
 }
-/*UI Color Blue #3498db*/
-i.fa-mobile-phone:hover,i.fa-bitbucket:hover, i.fa-tablet:hover{
+i.fa-mobile-phone{
     background-color: #3498db;
     box-shadow: 0px 0px 0px 2px #3498db;
 }
-/*UI Color Yellow #f1c40f*/
-i.fa-wordpress:hover,i.fa-laptop:hover,i.fa-bar-chart:hover{
+i.fa-wordpress{
     background-color: #f1c40f;
     box-shadow: 0px 0px 0px 2px #f1c40f;
+}
+i.fa-database{
+    background-color: #e67e22;
+    box-shadow: 0px 0px 0px 2px #e67e22;
+}
+i.fa-refresh{
+    background-color: #16a085;
+    box-shadow: 0px 0px 0px 2px #16a085;
+}
+i.fa-laptop{
+    background-color: #27ae60;
+    box-shadow: 0px 0px 0px 2px #27ae60;
+}
+i.fa-shopping-cart{
+    background-color: #e74c3c;
+    box-shadow: 0px 0px 0px 2px #e74c3c;
+}
+i.fa-tablet{
+    background-color: #2c3e50;
+    box-shadow: 0px 0px 0px 2px #2c3e50;
+}
+i.fa-bar-chart{
+    background-color: #8e44ad;
+    box-shadow: 0px 0px 0px 2px #8e44ad;
 }
 .content-inner h3{
 	font-weight: 500;
