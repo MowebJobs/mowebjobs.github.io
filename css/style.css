@@ -492,32 +492,32 @@ p.time-text{
   border: 2px solid#fff;
 }
 i.fa-code {
-    background-color: #2ecc71;
-    box-shadow: 0px 0px 0px 2px #2ecc71;
-}
-i.fa-mobile-phone{
     background-color: #3498db;
     box-shadow: 0px 0px 0px 2px #3498db;
 }
+i.fa-mobile-phone{
+    background-color: #2ecc71;
+    box-shadow: 0px 0px 0px 2px #2ecc71;
+}
 i.fa-wordpress{
-    background-color: #f1c40f;
-    box-shadow: 0px 0px 0px 2px #f1c40f;
+    background-color: #7f8c8d;
+    box-shadow: 0px 0px 0px 2px #7f8c8d;
 }
 i.fa-database{
-    background-color: #e67e22;
-    box-shadow: 0px 0px 0px 2px #e67e22;
+    background-color: #c0392b;
+    box-shadow: 0px 0px 0px 2px #c0392b;
 }
 i.fa-refresh{
     background-color: #16a085;
     box-shadow: 0px 0px 0px 2px #16a085;
 }
 i.fa-laptop{
-    background-color: #27ae60;
-    box-shadow: 0px 0px 0px 2px #27ae60;
+    background-color: #f1c40f;
+    box-shadow: 0px 0px 0px 2px #f1c40f;
 }
 i.fa-shopping-cart{
-    background-color: #e74c3c;
-    box-shadow: 0px 0px 0px 2px #e74c3c;
+    background-color: #d35400;
+    box-shadow: 0px 0px 0px 2px #d35400;
 }
 i.fa-tablet{
     background-color: #2c3e50;
